@@ -23,5 +23,5 @@ try {
     error_log('Catch exception while work with MySQL: ' . $ex->getMessage() . '\n', 3, "/var/tmp/errors.log");
 }
 
-header('Content-Type: image/png');
-readfile("./images/cross.png");
+header('Content-Type: image/jpeg');
+readfile("./images/background.jpg");
